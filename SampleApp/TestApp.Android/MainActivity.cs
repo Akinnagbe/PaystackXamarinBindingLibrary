@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Com.Olamidejames.Paystackxamarinandroidlibrary;
 
 namespace TestApp.Droid
 {
@@ -21,7 +22,7 @@ namespace TestApp.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
-            NG.Sterling.Paystackbindinglibrary.PaystackLibrary.Init(this, "pk_test_00da8d1dc726d3458ad76b39c87c3621007fc390");
+         PaystackLibrary.Init(this, "pk_test_00da8d1dc726d3458ad76b39c87c3621007fc390");
 
             LoadApplication(new App());
         }

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using NG.Sterling.Paystackbindinglibrary;
+using Com.Olamidejames.Paystackxamarinandroidlibrary;
 using TestApp.Droid.Services;
 using Xamarin.Forms;
 
