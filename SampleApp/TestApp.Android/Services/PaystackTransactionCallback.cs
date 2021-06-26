@@ -7,7 +7,7 @@ namespace TestApp.Droid.Services
     {
         public void OnError(Throwable error, string referenceId)
         {
-            
+            var message = error.Message;
         }
 
         public void OnSuccess(string referenceId)
