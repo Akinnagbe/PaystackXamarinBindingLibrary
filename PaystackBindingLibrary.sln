@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.iOS", "SampleApp\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "SampleApp\TestApp\TestApp.csproj", "{AF74E58D-69F3-468A-980E-06DA10CFBADF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaystackLibrary", "iOS\PaystackLibrary\PaystackLibrary.csproj", "{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,18 @@ Global
 		{AF74E58D-69F3-468A-980E-06DA10CFBADF}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{AF74E58D-69F3-468A-980E-06DA10CFBADF}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{AF74E58D-69F3-468A-980E-06DA10CFBADF}.Release|iPhone.Build.0 = Release|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +101,6 @@ Global
 		{723298D3-1649-4067-BF5F-4B8A0F06FC84} = {15F8500D-E542-42F1-9FE2-CB896C2FB60C}
 		{68A771AD-6AFB-434C-9B45-445D8192A30F} = {15F8500D-E542-42F1-9FE2-CB896C2FB60C}
 		{AF74E58D-69F3-468A-980E-06DA10CFBADF} = {15F8500D-E542-42F1-9FE2-CB896C2FB60C}
+		{8D1E14D8-57AF-4965-B6EC-AF997BE02D4E} = {11EEDB0E-E9E6-45E0-A770-75295AEB9F8A}
 	EndGlobalSection
 EndGlobal
